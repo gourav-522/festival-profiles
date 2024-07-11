@@ -43,6 +43,7 @@ header {
     text-align: left;
     color: #000000;
     margin-top: 15px;
+   
 
 }
 
@@ -274,6 +275,9 @@ header {
 
 .img:hover {
     scale: 1.09;
+}
+.Dictumst{
+    opacity: 60%;
 }
 
 .line2 {
@@ -595,7 +599,7 @@ footer {
 
     .user-name {
         margin-bottom: 0;
-    }
+          }
 
 
 }
