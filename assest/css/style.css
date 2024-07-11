@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
-*{
+* {
     padding: 0;
     margin: 0;
     list-style-type: none;
@@ -9,6 +9,7 @@
 
 
 }
+
 
 header {
 
@@ -146,9 +147,7 @@ header {
     border: 1px solid #2C49FE;
 }
 
-.ml99 {
-    margin-left: 80px;
-}
+
 
 .svg-boxs {
     margin-top: 38px;
@@ -186,6 +185,7 @@ header {
 .sec-2 {
     margin-top: 156px;
 }
+
 * {
     padding: 0%;
     margin: 0%;
@@ -563,6 +563,9 @@ footer {
 .logo1 {
     margin-top: 10px;
 }
+.ml20{
+    margin-left: 20px;
+}
 
 
 
@@ -595,9 +598,6 @@ footer {
     }
 
 
-    .unshow {
-        margin-left: 24px;
-    }
 }
 
 @media (max-width:1200px) {
@@ -674,7 +674,7 @@ footer {
         justify-content: space-between;
         flex-direction: column;
         z-index: 10;
-        
+
         right: 2%;
     }
 
@@ -700,12 +700,15 @@ footer {
     }
 
     .home {
-        text-align: center;
+       
         margin-top: 5px;
     }
 
     .mb25 {
         margin-bottom: 25px;
+    }
+    .btns{
+        flex-direction: column;
     }
 
 }
@@ -731,7 +734,7 @@ footer {
 
     .sec-4-comment {
         flex-direction: column;
-        
+
     }
 
     .sec-2 {
@@ -746,13 +749,6 @@ footer {
         width: 85%;
     }
 
-
-   
-
-    .show {
-        margin-left: 24px;
-    }
-
     .mb25 {
         margin-bottom: 25px;
     }
@@ -760,33 +756,33 @@ footer {
 
 
 
-    @media (max-width: 768px) {
+@media (max-width: 768px) {
 
-        .col-mx-md-12 {
-            width: 100%;
-            padding-left: 12px;
-            padding-right: 12px;
-        }
+    .col-mx-md-12 {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .flex-sm-wrap {
+        flex-wrap: wrap;
     }
 
 
-    @media (max-width: 576px) {
-        .flex-sm-wrap {
-            flex-wrap: wrap;
-        }
 
-
-
-        .col-max-sm-12 {
-            width: 100%;
-            padding-left: 12px;
-            padding-right: 12px;
-        }
-
-
-
-        .photos {
-            display: flex;
-            flex-wrap: wrap;
-        }
+    .col-max-sm-12 {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
     }
+
+
+
+    .photos {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
