@@ -487,7 +487,7 @@ header {
 }
 
 .show-box {
-    height: 100%;
+    height: 72px;
     background: #2D3CAE87;
     font-family: "Poppins", sans-serif;
     font-size: 17px;
